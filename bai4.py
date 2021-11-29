@@ -1,5 +1,6 @@
-a = input()
-k = int(input())
+s = list(map(str,input().split()))
+a = s[0]
+k = int(s[1])
 for i in range(k):
     ans = ""
     cnt = 1
